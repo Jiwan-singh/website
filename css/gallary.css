@@ -1,0 +1,31 @@
+.gallary{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 100px 0px;
+}
+.slides img{
+    width: 80vw;
+    height: 80vh;
+}
+ .arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    background-color: rgba(246, 218, 6, 0.704);
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 50px;
+    color: #cea135;
+
+}
+.right{
+    right: 10px;
+}
+.left{
+    left: 10px;
+}
+.slides{
+    display: none;
+}

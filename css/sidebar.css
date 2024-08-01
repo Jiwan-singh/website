@@ -1,0 +1,30 @@
+.sidebar{
+    position: fixed ;
+    top:10%;
+    right: 0%;
+    height: 100vh;
+    width: 100%;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.138);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+
+.sidebar > .nav-link a{
+    color: black;  
+    display: block; 
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px  15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sidebarhide{
+    display: none;
+}

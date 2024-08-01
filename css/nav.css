@@ -1,0 +1,104 @@
+/* common nav styles */
+.nevigation-wrapper{
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+}
+/* .left-column */
+
+.nevigation-wrapper > .left-column > .phone-icon{
+    color: rgb(237, 24, 24);
+       text-align: center;
+       width: 30px;
+       margin-right: 5px;
+}
+
+
+.nevigation-wrapper > .left-column > .phone-icon #phone-icon-image{
+    width: 100%;
+}
+
+.nevigation-wrapper > .left-column{
+    display: flex;
+    align-items: center;
+   
+}
+
+.nevigation-wrapper > .left-column > .contact-hours-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+.nevigation-wrapper > .left-column > .contact-hours-wrapper > .hours{
+    color: #858585;
+    font-size: 0.8em;
+    letter-spacing: 3px;
+}
+.nevigation-wrapper > .left-column > .contact-hours-wrapper > .contact{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+/* .center-colum */
+
+
+.banner-image img{
+    width: 180px;
+    height: 100%;
+}
+.nevigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;    
+    width: 700px;
+}
+
+.nevigation-wrapper > .center-column > .banner-image{
+    display: flex;
+    justify-content: center;
+}
+
+.link-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link-wrapper > .nav-link{
+    width: 70px;
+    text-align: center;
+}
+
+.link-wrapper > .nav-link a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5ms;    
+}
+.link-wrapper > .nav-link a:hover{
+    color: #cea135;
+    letter-spacing: 3px;
+}
+/* right-button */
+
+.right-column > .book-button button:hover{    
+    color: #cea135;
+}
+.right-column > .book-button button{
+    background-color: red;
+    border-radius: 5px;
+    border: 0px;
+    padding: 0px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    color: white
+
+
+}
+
+.right-column > .book-button a{
+    text-decoration: none;
+
+        
+}

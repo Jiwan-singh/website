@@ -1,0 +1,205 @@
+@media (max-width:1360px){
+    h1{
+        font-size: 18px!important;
+        font-weight: 400;
+    }
+    /* .nevigation-wrapper{
+         position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 99;
+       
+    } */
+  
+    .nevigation-wrapper{
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+    }
+    .nevigation-wrapper > .left-column{
+        order: 2;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .nevigation-wrapper > .center-column{
+        order: 1;
+        width: 100%;
+    }
+    .nevigation-wrapper > .right-column{
+        order: 3;
+        margin-top: 15px;
+    }
+    .link-wrapper{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .link-wrapper > .nav-link{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        width: 100%;
+
+    }
+  
+
+    /* hero-section */
+    .hero-section > .top-heading {
+        background-color: #11122b;
+        color: #cbcbcb;
+        width: 200px;
+        border-radius: 2px;
+        padding: 10px 10px;
+        
+    }
+    .hero-section > .top-heading h1{
+        font-size: 15px;
+    }
+    .hero-section > .bottom-heading{
+        background-color: #cea135;
+        color: #11122b;
+        text-align: center;
+        margin-top: 15px;
+        width: 140px;
+        border-radius: 2px;
+        padding: 10px 10px;
+    }
+    .hero-section > .bottom-heading h3{
+        font-size: 10px;
+    }
+
+    /* features section */
+
+    .feature-section {
+        height: auto;
+    }
+    .feature-section > .columns-wrapper{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .feature-section > .columns-wrapper > .column{
+        margin: 42px;
+        text-align: center;
+        border-bottom: 5px solid transparent;
+        border-radius: 10px;
+        transition: 1s;
+    }
+    .feature-section > .columns-wrapper > .column:hover{
+        border-bottom: 5px solid #11122b;
+    }
+
+    .feature-section > .contact-us{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 70%;
+        height: auto;
+        align-items: flex-start;
+    }
+  
+    
+    /* roomscatalogue */
+
+    .living-rooms-price{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .living-rooms-price > .rooms-price{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .living-rooms-price > .rooms-price > .cozy-haven-room {
+        padding: 0px;
+    }
+
+    .living-rooms-price > .rooms-price > .cozy-haven-room img{
+        width: 375px;
+        height: auto;
+    }
+    .living-rooms-price > .rooms-price > .spacious-room{
+        padding: 0px;
+    }
+    .living-rooms-price > .rooms-price > .spacious-room img{
+        width: 375px;
+        height: auto;
+    }
+
+    /* services */
+    .services > .service-types{
+        margin-left: 0px;
+        
+    }
+
+    .services > .service-types > .service-menu{
+        gap: 10px;
+    }
+
+    .services > .service-types h4, h1{
+        font-size: 14px;
+    }
+    .services > .service-types > .service-menu img{
+        width: 20px;
+        height: 20px;
+    }
+
+    /* Gallary */
+    .slides img{
+        width: 80%;
+        height: 400px;
+    }
+
+    /* contact form */
+    .contact-section{
+       
+    }
+
+    .contact-section > .right-column{
+      
+        left: 0%;
+        width: 100%;
+        text-align:center;
+    }
+    .contact-section > .right-column > .contact-form{
+        width: 100%;
+    }
+      
+    .contact-section > .right-column > .contact-form > .form{
+        width: 100%;
+    }
+    
+    .contact-section > .contact-info{
+        order: 2;
+        display: none;
+    }
+
+    .contact-section > .right-column > .contact-form > .textmassage textarea{
+        width: 80%;
+    }
+
+    /* footer section */
+    .footer-section > .inner-footer-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+       
+    }
+    
+
+    .footer-section > .inner-footer-section > .contact-us a{
+    width: 100%;
+    }
+
+    .hideonmobile{
+        display: none;
+   }
+   .sidebarhide{
+    display: block!important;
+   }
+  
+}
+

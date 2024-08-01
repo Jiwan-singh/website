@@ -1,0 +1,49 @@
+#Ourservice{
+    position: relative;
+    margin: 100px 0px;
+    text-align: center;
+}
+.services{
+    background-image: url(../image/ayodhya.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+    height: 450px;
+     
+}
+
+#Oursevice h1{
+    text-align: center;
+    margin-top: -50px;
+}
+.services > .service-types{
+    background-color: #11122b;
+    color: #cea135;
+    width: 30%;
+    text-align: center;
+    margin-left: 850px;
+    padding: 50px;
+    position: absolute;
+    border-radius: 5px;
+    height: 350px;
+    
+
+}
+.result{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px 0px;
+}
+.services > .service-types > .service-menu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.services > .service-types > .service-menu img{
+    width: 40px;
+    height: 40px;
+}

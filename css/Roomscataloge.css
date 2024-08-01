@@ -1,0 +1,81 @@
+.living-rooms-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.living-rooms-price > .tagline{
+    text-align: center;
+}
+.living-rooms-price > .rooms-price{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    justify-items: center;
+    width: 80%;
+}
+
+.living-rooms-price > .rooms-price > .cozy-haven-room {
+    padding: 50px;
+    text-align: center;
+    margin: 5px 0px;
+    /* transform */
+    /* position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: linear; */
+
+}
+
+@keyframes mymove {
+    from {left: 100px;}
+    to {left: 100px;}
+  }
+
+.living-rooms-price > .rooms-price > .spacious-room {
+    padding: 50px;
+    text-align: center;
+    /* transform */
+    /* position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: linear; */
+
+}
+
+@keyframes mymove {
+    from {right: 0px;}
+    to {left:100px;}
+  }
+
+
+.living-rooms-price > .rooms-price > .cozy-haven-room img{
+    width: 400px;
+    height: auto;
+}
+.living-rooms-price > .rooms-price > .spacious-room img{
+    width: 400px;
+    height: auto;
+}
+
+.living-rooms-price > .rooms-price > .cozy-haven-room button{
+    background-color: red;
+    border-radius: 5px;
+    border: 0px;
+    padding: 0px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    color: white
+}
+
+.living-rooms-price > .rooms-price > .spacious-room button{
+    background-color: red;
+    border-radius: 5px;
+    border: 0px;
+    padding: 0px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    color: white
+}
